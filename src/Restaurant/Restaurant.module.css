@@ -1,0 +1,32 @@
+.result {
+    display: flex;
+    max-width: 1135px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+  
+.img{
+    display: block;
+    width: 265px;
+    height: 260px;
+    border: 1px gray;
+    margin-right: 1rem;
+    margin-top: 16px;
+    border-radius: 40px;
+}
+  
+.info {
+    min-width: 400px;
+    font-family: 'Nunito', sans-serif;
+}
+  
+.contact {
+    font-size: 0.85rem;
+    font-family: 'Nunito', sans-serif;
+}
+  
+.tag {
+    margin-right: 4px;
+    font-family: 'Nunito', sans-serif;
+}
+  

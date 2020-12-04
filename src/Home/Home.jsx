@@ -1,14 +1,26 @@
-import React from 'react'
-import Form from "../Form/Form";
-import treefrog from "../images/treefrog.jpg";
+import React from 'react';
+import styles from "./Home.module.css";
+import Navigation from '../NavigationBar/Navigation';
+import SearchBar from "../SearchBar/SearchBar";
+import useReactRouter from 'use-react-router';
 
-const Home = () => {
+export function Home() {
+    const {history} = useReactRouter();
+
+    function search(term, location) {
+        const urlEncodedTerm = encodeURI(term);
+        const urlEncodedLocation = encodeURI(location);
+        history.push(
+        `/search?find_desc=${urlEncodedTerm}&find_loc=${urlEncodedLocation}`
+        );
+    }
     return (
         <div>
-            The home page
-            <h1>I changed this homepage</h1>
-            <img src={treefrog} alt="tree frog" />
-            <Form />
+            <Navigation/>
+            <p className = {styles.title}>
+                Hope you can find the food you like! Enjoy!
+            </p>
+            <SearchBar search = {search}/>
         </div>
     )
 }

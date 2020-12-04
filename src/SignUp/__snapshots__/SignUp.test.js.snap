@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the home component correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="div"
+    >
+      <h2
+        class="text"
+      >
+        Sign up
+      </h2>
+      <img
+        alt="logo"
+        class="img"
+        src="Logo.jpg"
+      />
+    </div>
+    <form
+      class="form"
+    >
+      <label
+        for="name"
+      >
+        User Name
+      </label>
+      <input
+        class="input"
+        id="name"
+        name="User Name"
+        placeholder="Name"
+        required=""
+        type="text"
+      />
+      <label
+        for="email"
+      >
+        Email
+      </label>
+      <input
+        class="input"
+        id="email"
+        name="Email"
+        placeholder="Email"
+        required=""
+        type="email"
+      />
+      <label
+        for="password"
+      >
+        Password
+      </label>
+      <input
+        class="input"
+        id="password"
+        name="Password"
+        placeholder="Password"
+        required=""
+        type="password"
+      />
+      <label
+        for="zipcode"
+      >
+        Zipcode
+      </label>
+      <input
+        class="input"
+        id="zipcode"
+        name="Zipcode"
+        pattern="[0-9]{5}"
+        placeholder="Zipcode"
+        required=""
+        type="text"
+      />
+      <label
+        for="phonenumber"
+      >
+        Phone Number
+      </label>
+      <input
+        class="input"
+        id="phonenumber"
+        name="PhoneNumber"
+        placeholder="PhoneNumber"
+        required=""
+        type="tel"
+      />
+      <label
+        for="gender"
+      >
+        Gender
+      </label>
+      <br />
+      <input
+        id="male"
+        type="checkbox"
+      />
+      <label
+        for="male"
+      >
+        Male
+      </label>
+      <input
+        id="female"
+        type="checkbox"
+      />
+      <label
+        for="female"
+      >
+        Female
+      </label>
+      <input
+        id="none"
+        type="checkbox"
+      />
+      <label
+        for="n/a"
+      >
+        Decline to self identify
+      </label>
+      <br />
+      <label
+        for="Locations"
+      >
+        Location
+      </label>
+      <select
+        id="location"
+        name="location"
+      >
+        <option
+          value="San Jose"
+        >
+          San jose
+        </option>
+        <option
+          value="LA"
+        >
+          LA
+        </option>
+        <option
+          value="New York"
+        >
+          New York
+        </option>
+      </select>
+      <br />
+      <input
+        class="button"
+        type="submit"
+        value="Sign up"
+      />
+    </form>
+  </div>
+</div>
+`;

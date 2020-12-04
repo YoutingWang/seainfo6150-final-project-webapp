@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the home component correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="header"
+    >
+      <div
+        class="left"
+      >
+        <img
+          alt="Logo"
+          class="logo"
+          src="Logo.jpg"
+        />
+        <h1
+          class="title"
+        >
+          Yummy Restaurants
+        </h1>
+      </div>
+      <div
+        class="right"
+      >
+        <button
+          type="button"
+        >
+          Log in
+        </button>
+        <button
+          type="button"
+        >
+          Sign up
+        </button>
+      </div>
+    </div>
+    <h2
+      class="h2"
+    >
+      Contact Us
+    </h2>
+    <p
+      class="text"
+    >
+      If you have any questions, please leave your name and contact information. We will contact you later!
+    </p>
+    <form
+      class="form"
+    >
+      <label
+        class="text"
+        for="name"
+      >
+        Name
+      </label>
+      <input
+        id="name"
+        name="name"
+        placeholder="Name"
+        type="text"
+      />
+      <br />
+      <label
+        class="text"
+        for="email"
+      >
+        Email
+      </label>
+      <input
+        id="email"
+        name="Email"
+        placeholder="Email"
+        required=""
+        type="email"
+      />
+       
+      <br />
+      <label
+        class="text"
+        for="phonenumber"
+      >
+        Phone Number
+      </label>
+      <input
+        id="phonenumber"
+        name="PhoneNumber"
+        placeholder="PhoneNumber"
+        required=""
+        type="tel"
+      />
+      <br />
+      <label
+        class="text"
+        for="City"
+      >
+        Which city do you live in? 
+      </label>
+      <select
+        id="City"
+        name="City"
+      >
+        <option
+          value="San Jose"
+        >
+          San Jose
+        </option>
+        <option
+          value="LA"
+        >
+          LA
+        </option>
+        <option
+          value="Seattle"
+        >
+          Seattle
+        </option>
+        <option
+          value="New York"
+        >
+          New York
+        </option>
+      </select>
+      <br />
+      <input
+        class="button"
+        type="submit"
+        value="Submit"
+      />
+    </form>
+  </div>
+</div>
+`;

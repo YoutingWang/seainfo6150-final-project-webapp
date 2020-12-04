@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the home component correctly 1`] = `
+<div>
+  <div
+    class="header"
+  >
+    <div
+      class="left"
+    >
+      <img
+        alt="Logo"
+        class="logo"
+        src="Logo.jpg"
+      />
+      <h1
+        class="title"
+      >
+        Yummy Restaurants
+      </h1>
+    </div>
+    <div
+      class="right"
+    >
+      <button
+        type="button"
+      >
+        Log in
+      </button>
+      <button
+        type="button"
+      >
+        Sign up
+      </button>
+    </div>
+  </div>
+</div>
+`;

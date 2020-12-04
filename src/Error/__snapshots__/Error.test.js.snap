@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the home component correctly 1`] = `
+<div>
+  <div>
+    <header
+      class="header"
+    >
+       Oops! 
+    </header>
+    <p
+      class="text"
+    >
+       We can't seem to find the page you are looking for. 
+    </p>
+    <p
+      class="text"
+    >
+      Error code: 404
+    </p>
+  </div>
+</div>
+`;

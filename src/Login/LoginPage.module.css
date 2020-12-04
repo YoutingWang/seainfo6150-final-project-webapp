@@ -1,0 +1,102 @@
+.text {
+    color: #282929;
+    display: block;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 40px;
+}
+
+.input {
+    color: #000000;
+    padding: 3px;
+    font-size: 10px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+}
+
+.form {
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    color: rgb(39, 39, 39);
+    margin-top: 10px;
+    border-color: #141010;
+    left: 40px;
+}
+
+.img{
+    margin-top: 20px;
+    height: 35px;
+    width: 35px;
+}
+
+.div {
+    margin-left: 45%;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (min-width: 550px) {
+    .text {
+        font-size: 20px;
+    }
+    .input {
+        font-size: 10px;
+        width: 250px;
+        height: 30px;
+    }
+    .form{
+        width: 200px;
+        height: 200px;
+    }
+    .img{
+        height: 35px;
+        width: 35px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .text {
+        font-size: 25px;
+    }
+    .input {
+        font-size: 14px;
+        width: 280px;
+        height: 40px;
+    }
+    .form{
+        width: 240px;
+        height: 240px;
+    }
+    .img{
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .text {
+        font-size: 32px;
+    }
+    .input {
+        font-size: 18px;
+        width: 350px;
+        height: 50px;
+    }
+    .form{
+        width: 340px;
+        height: 340px;
+    }
+    .img{
+        height: 60px;
+        width: 60px;
+    }
+}

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the home component correctly 1`] = `
+<div>
+  <form>
+    <div
+      class="textBox"
+    >
+      <div>
+        <p
+          class="text"
+        >
+          Name
+        </p>
+      </div>
+      <p>
+        <input
+          class="input"
+          placeholder="pizza, chinese..."
+          type="text"
+          value=""
+        />
+      </p>
+      <div>
+        <p
+          class="text"
+        >
+          Location
+        </p>
+      </div>
+      <p>
+        <input
+          class="input"
+          placeholder="where..."
+          type="text"
+        />
+      </p>
+      <div />
+      <p>
+        <button
+          class="button"
+        >
+          Search
+        </button>
+      </p>
+    </div>
+  </form>
+</div>
+`;

@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the home component correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="header"
+    >
+      <div
+        class="left"
+      >
+        <img
+          alt="Logo"
+          class="logo"
+          src="Logo.jpg"
+        />
+        <h1
+          class="title"
+        >
+          Yummy Restaurants
+        </h1>
+      </div>
+      <div
+        class="right"
+      >
+        <button
+          type="button"
+        >
+          Log in
+        </button>
+        <button
+          type="button"
+        >
+          Sign up
+        </button>
+      </div>
+    </div>
+    <header
+      class="header"
+    >
+      Welcome
+    </header>
+    <img
+      alt="About"
+      class="background"
+      src="about.jpeg"
+    />
+    <p
+      class="text"
+    >
+      Here are some yummy restaurants, we provide all kinds of restaurants in the world. Enjoy!
+    </p>
+    <h2
+      class="header"
+    >
+      About me
+    </h2>
+    <img
+      alt="about me"
+      class="img"
+      src="AboutMe.JPG"
+    />
+    <p
+      class="text"
+    >
+      Youting Wang
+    </p>
+    <p
+      class="text"
+    >
+      Northeastern University
+    </p>
+    <p
+      class="text"
+    >
+      Information Systems
+    </p>
+    <p
+      class="text"
+    >
+      Enroll in 19 Fall
+    </p>
+    <p
+      class="text"
+    >
+      I am very interested in the food in the world. I also like to study how to make them. I hope I can bring you my passion for food. Hope you can enjoy the food.
+    </p>
+  </div>
+</div>
+`;

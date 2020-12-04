@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the home component correctly 1`] = `
+<div>
+  <div
+    class="topBar"
+  >
+    <nav>
+      <button
+        type="button"
+      >
+        Home
+      </button>
+      <button
+        type="button"
+      >
+        About
+      </button>
+      <button
+        type="button"
+      >
+        Contact us
+      </button>
+    </nav>
+  </div>
+</div>
+`;
